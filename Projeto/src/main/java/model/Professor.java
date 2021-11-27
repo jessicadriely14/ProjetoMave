@@ -32,6 +32,10 @@ public class Professor implements Serializable {
 		this.email = email;
 		this.sexo = sexo;
 	}
+	
+	public Professor() {
+		super();
+	}
 
 	public Integer getId() {
 		return id;
